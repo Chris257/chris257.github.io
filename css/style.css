@@ -11,7 +11,7 @@
 *
 * ======================================================= */
 body {
-  max-width: 1920px;
+  max-width: 1800px;
   margin-right: auto;
   margin-left: auto;
   font-family: "Work Sans", Arial, sans-serif;
@@ -942,8 +942,8 @@ form label {
 .simply-countdown > .simply-section {
   /* coutndown blocks */
   display: inline-block;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   background: #0077b6;
   margin: 0 4px;
   -webkit-border-radius: 50%;
@@ -969,8 +969,8 @@ form label {
   /* countdown block inner div */
   display: table-cell;
   vertical-align: middle;
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
 }
 
 .simply-countdown > .simply-section .simply-amount,
@@ -981,7 +981,7 @@ form label {
 }
 
 .simply-countdown > .simply-section .simply-amount {
-  font-size: 30px;
+  font-size: 20px;
   /* amounts */
 }
 
@@ -1409,19 +1409,6 @@ form label {
   display: block;
 }
 
-.owl-carousel .owl-controls .owl-dot span {
-  background: #e6e6e6;
-}
-.owl-carousel .owl-controls .owl-dot span:hover, .owl-carousel .owl-controls .owl-dot span:focus {
-  background: #cccccc;
-}
-.owl-carousel .owl-controls .owl-dot:hover span, .owl-carousel .owl-controls .owl-dot:focus span {
-  background: #cccccc;
-}
-.owl-carousel .owl-controls .owl-dot.active span {
-  background: transparent;
-  border: 2px solid #0077b6;
-}
 
 #fh5co-offcanvas {
   position: absolute;
