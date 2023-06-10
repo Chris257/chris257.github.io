@@ -122,11 +122,12 @@
                 minutes: 0,
                 seconds: 0,
                 words: {
-                    days: 'day',
-                    hours: 'hour',
-                    minutes: 'minute',
-                    seconds: 'second',
-                    pluralLetter: 's'
+                    days: 'dag',
+                    hours: 'time',
+                    minutes: 'minutt',
+                    seconds: 'sekund',
+                    pluralLetter: 'er',
+                    pluralLetterTimer: 'r'
                 },
                 plural: true,
                 inline: false,
@@ -219,7 +220,7 @@
                         : parameters.words.days;
 
                     hourWord = hours > 1
-                        ? parameters.words.hours + parameters.words.pluralLetter
+                        ? parameters.words.hours + parameters.words.pluralLetterTimer
                         : parameters.words.hours;
 
                     minuteWord = minutes > 1
