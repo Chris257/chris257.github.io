@@ -1860,9 +1860,8 @@ form label {
 #Guest-title {
   font-family: "Sacramento", Arial, serif;
   color: #0077b6;
-  font-size: 30px;
   text-align: center;
-  font-size: 60px;
+  font-size: 40px;
   font-weight: bold;
 }
 
@@ -1923,7 +1922,7 @@ form label {
 
 .carousel-row::-webkit-scrollbar {
   width: 6px;    
-  height: 12px;
+  height: 14px;
 }
 
 .carousel-row::-webkit-scrollbar-thumb {
